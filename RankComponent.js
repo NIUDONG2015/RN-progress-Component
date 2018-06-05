@@ -1,4 +1,4 @@
-/**
+﻿/**
  * 组件样式
  *    1 张三丰                          ￥12345621432
  *      --------------进度条                  50.21% （完成率）
@@ -6,6 +6,15 @@
  *      --------------进度条                  50.21% （完成率）
  * 
  * 使用组件   react-native-progress  命令   npm install react-native-progress --save  
+
+ 	rankDataArr: [
+                {src: require('../../../Image/sale_list_ic_1.png'),name:'张三丰1区',moneyNum:'7544532143254542',completionRate:'50'},
+                {src: require('../../../Image/sale_list_ic_2.png'),name:'张三丰2区',moneyNum:'7544532143254542',completionRate:'50'},
+                {src: require('../../../Image/sale_list_ic_3.png'),name:'张三丰3区',moneyNum:'7544532143254542',completionRate:'50'},
+                {src: require('../../../Image/sale_list_ic_3.png'),name:'张三丰4区',moneyNum:'7544532143254542',completionRate:'50'},
+                {src: require('../../../Image/sale_list_ic_3.png'),name:'张三丰5区',moneyNum:'7544532143254542',completionRate:'50'},
+            ]
+
  * 
  * 调用组件
  *  {
